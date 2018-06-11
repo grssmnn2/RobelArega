@@ -11,6 +11,16 @@ h1{
   
 }
 
+.navbar-default {
+    background-color: black;
+    background-image: none;
+    background-repeat: no-repeat;
+   }
+
+.navbar-nav{
+    color: white;
+}
+
 .tiledBackground {
     background-image: url('images/robel.jpeg');
     background-size: 250px;
