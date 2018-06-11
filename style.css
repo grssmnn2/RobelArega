@@ -1,6 +1,14 @@
-h1,p {
-    font-family: 'Cinzel', serif;
+body{
+    background-color: black;
 }
+h1{
+    font-family: 'Cinzel', serif;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+
 
 img{
     box-shadow: 10px 10px 5px rgb(207, 197, 197);    
