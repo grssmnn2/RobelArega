@@ -1,13 +1,31 @@
 html{
     background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#navName{
+    color: rgb(221,188,152);
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1.2em;
+    font-family: "Source Code Pro";
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1{
-    font-family: 'Cinzel', serif;
+    font-family: "Source Code Pro";
     color: white;
     text-align: center;
-    font-size: 70px;
+    font-size: 96px;
     line-height: 700px;
+    position: absolute;
+    z-index: 100;
   
 }
 
@@ -17,26 +35,27 @@ h1{
     background-repeat: no-repeat;
    }
 
-.navbar-nav{
-    color: white;
+.navbar-nav li a {
+   color: white;
 }
 
 .tiledBackground {
-    background-image: url('images/robel.jpeg');
-    background-size: 250px;
+    background-image: url('images/robel.jpg');
+    background-size: 350px;
     width: 1300px;
     height: 1300px;
     border: 2px solid;
     color: black;
     top: 0px;
+   
   }
 
 
 img{
-    box-shadow: 10px 10px 5px rgb(207, 197, 197);    
-    height: 250px;
-    width: 250px; 
+   
+    height: 600px;
+    width: 700px; 
     border-radius: 5px;
     float: right;
-    margin-right: 25%;
+   
 }
