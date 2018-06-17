@@ -1,6 +1,6 @@
 html{
     background-color: black;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x: hidden;
 }
 
@@ -29,6 +29,26 @@ h1{
   
 }
 
+h3{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+p{
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    line-height: 1.75em;
+    letter-spacing: .4px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+}
+
 #home{
     color: white;
 }
@@ -54,11 +74,12 @@ h1{
     background-image: url('images/robel.jpg');
     background-size: 350px;
     width: 1300px;
-    height: 1300px;
+    height: 600px;
     border: 2px solid;
     color: black;
     top: 0px;
     margin-top: -23px;
+    margin-bottom: -23px;
    
   }
 
@@ -70,4 +91,9 @@ img{
     border-radius: 5px;
     float: right;
    
+}
+
+.twitter{
+    background-color: black;
+    color: white;
 }
