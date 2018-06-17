@@ -33,6 +33,13 @@ body {
 }
 ol, ul {
 	list-style: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 1px;
+	display: table;
+
+}
+ul > li {
+	display: table-cell;
 }
 blockquote, q {
 	quotes: none;

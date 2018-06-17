@@ -39,8 +39,9 @@ h1{
     background-repeat: no-repeat;
    }
 
-.navbar-nav li a {
-   color: white;
+   .navbar-nav li a {
+    /* in here move navbar items to evenly cover entire screen */
+
 }
 
 .tiledBackground {
