@@ -100,7 +100,15 @@ img{
     max-height: 200px;
 }
 
+.twitter h3{
+    padding: 2%;
+    font-size: 50px;
+}
+
 .about p{
+    max-width: 50%;
+    margin-top: 3%;
+    margin-left: 30%;
     font-size: 20px;
     padding: 5px;
     font-family: 'Roboto Condensed', sans-serif;
