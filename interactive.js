@@ -1,4 +1,2 @@
-var Twitter = require('twitter');
-
 
   
