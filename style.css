@@ -1,20 +1,18 @@
 html{
     background-color: black;
-    /* overflow-y: hidden; */
     overflow-x: hidden;
 }
 
 #navName{
     color: rgb(221,188,152);
     margin: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 15px;
+    padding-left: 18px;
     line-height: 1.2em;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    /* font-weight: 3000; */
     font-style: normal;
 }
 
