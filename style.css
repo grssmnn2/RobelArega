@@ -83,13 +83,25 @@ p{
   }
 
 
-img{
+.robelImage{
    
     height: 600px;
     width: 700px; 
     border-radius: 5px;
     float: right;
    
+}
+
+.standup{
+    background-color: black;
+    width: 100%;
+    margin-top: -23px;
+
+}
+
+.daveImage{
+    width: 100%;
+    margin-left: 5%;
 }
 
 .twitter{
