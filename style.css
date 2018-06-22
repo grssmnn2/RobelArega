@@ -1,4 +1,4 @@
-html{
+.fullPage{
     background-color: black;
     overflow-x: hidden;
 }
@@ -16,7 +16,7 @@ html{
     font-style: normal;
 }
 
-h1{
+.name{
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     text-align: center;
