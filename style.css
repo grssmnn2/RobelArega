@@ -107,6 +107,12 @@ p{
 
 }
 
+.podcastImage{
+    align-self: center;
+    margin: 0 auto;
+   width: 900px; 
+}
+
 .daveImage{
     width: 100%;
     margin-left: 5%;
