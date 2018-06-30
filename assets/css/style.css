@@ -65,12 +65,12 @@ p{
 
 .navbar-nav li a {
    display: inline-block;
-   padding-left: 90px;
+   padding-left: 80px;
 
 }
 
 .tiledBackground {
-    background-image: url('images/robel.jpg');
+    background-image: url('../../images/robel.jpg');
     background-size: 350px;
     width: 1300px;
     height: 600px;
