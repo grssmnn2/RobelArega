@@ -92,6 +92,14 @@ p{
    
 }
 
+.videoImage{
+    height: 600px;
+    width: 700px; 
+    border-radius: 5px;
+    float: right;
+
+}
+
 .standup{
     background-color: black;
     width: 100%;

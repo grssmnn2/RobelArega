@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Robel Arega</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html" id="home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="scrollScreen()">About H.I.M.</a>
+                    </li>
+                    <li>
+                        <a href="standup.html">Stand Up</a>
+                    </li>
+                    <li id="navName">ROBEL AREGA</li>
+                    <li>
+                        <a href="video.html">Video</a>
+                    </li>
+                    <li>
+                        <a href="podcast.html">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="shows.html">Shows</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container standup">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="name">VIDEO</h1>
+            </div>
+            <div class="col-md-8">
+                <img class="videoImage" src="images/paper.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                    <iframe class="standupVideo" width="560" height="315" src="https://www.youtube.com/embed/TzxQM8Adn3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                    <iframe class="standupVideo" width="560" height="315" src="https://www.youtube.com/embed/pymzPhhBKgU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-6">
+                        <iframe class="standupVideo" width="560" height="315" src="https://www.youtube.com/embed/LhmPclzNfyw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UI0BbQWjW40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="interactive.js"></script>
+</body>
+
+</html>
